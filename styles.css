@@ -1,1 +1,34 @@
 /* your code */
+table {
+      width: 80%;
+      margin: 30px auto;
+      border-collapse: collapse;
+      font-family: Arial, sans-serif;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    thead {
+      background-color: #004080;
+      color: white;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px 15px;
+      text-align: center;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    tbody tr:hover {
+      background-color: #d1e0ff;
+    }
+
+    caption {
+      caption-side: top;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
